@@ -86,7 +86,9 @@ kubeadm 1.13 安装高可用 kubernetes v1.13.1 集群
 192.168.33.20 n01
 192.168.33.21 n02
 ```
-
+需要添加aliyun的dns
+nameserver 223.5.5.5
+nameserver 223.6.6.6
 
 ### 2. 虚拟机账号和 sudo 免密
 
